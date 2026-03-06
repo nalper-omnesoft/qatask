@@ -16,6 +16,8 @@ A simple Todo application built with a .NET API backend, React frontend, Keycloa
 ## Getting Started
 
 ```bash
+git clone git@github.com:nalper-omnesoft/qatask.git
+cd qatask
 docker compose up -d
 ```
 
