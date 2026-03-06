@@ -24,7 +24,7 @@ For local development only:
 Start everything (PostgreSQL, Keycloak, API, and frontend) with a single command:
 
 ```bash
-docker compose up -d --build
+docker compose up -d
 ```
 
 Wait ~30 seconds for Keycloak to fully start, then open http://localhost:4101.

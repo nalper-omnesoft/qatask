@@ -49,9 +49,7 @@ services:
       - ./keycloak:/opt/keycloak/data/import:ro
 
   api:
-    build:
-      context: ./ApiService
-      dockerfile: Dockerfile
+    image: ghcr.io/nalper-omnesoft/qatask-api:latest
     container_name: qatask-api
     depends_on:
       postgres:
@@ -78,9 +76,7 @@ services:
       start_period: 15s
 
   frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
+    image: ghcr.io/nalper-omnesoft/qatask-frontend:latest
     container_name: qatask-frontend
     depends_on:
       api:
