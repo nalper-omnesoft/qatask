@@ -1,0 +1,24 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+
+## Node
+node_modules/
+dist/
+
+## IDE
+.idea/
+.vscode/
+*.swp
+
+## Env (keep .env in repo for this dev task)
+# .env
+
+## Logs
+logs/
+
+## Playwright
+test-results/
+playwright-report/
