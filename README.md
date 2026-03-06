@@ -11,6 +11,7 @@ A simple Todo application built with a .NET API backend, React frontend, Keycloa
 
 ## Prerequisites
 
+- [Git](https://git-scm.com/downloads)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) (includes Docker Compose) — [install guide](https://docs.docker.com/get-started/get-docker/)
 
 ## Getting Started
